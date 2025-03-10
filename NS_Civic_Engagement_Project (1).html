@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Service & Volunteerism</title>
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        nav {
+            text-align: center;
+            background: #1abc9c;
+            padding: 15px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+        img.banner {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #2c3e50;
+            color: white;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+        .section {
+            display: none;
+        }
+        .active {
+            display: block;
+        }
+    </style>
+    <script>
+        function showSection(sectionId) {
+            let sections = document.querySelectorAll('.section');
+            sections.forEach(section => section.classList.remove('active'));
+            document.getElementById(sectionId).classList.add('active');
+        }
+    </script>
+</head>
+<body>
+    <header>
+        Community Service & Volunteerism
+    </header>
+    <nav>
+        <a onclick="showSection('home')">Home</a>
+        <a onclick="showSection('why-volunteer')">Why Volunteer?</a>
+        <a onclick="showSection('how-to-get-involved')">How to Get Involved</a>
+        <a onclick="showSection('sources')">Sources</a>
+    </nav>
+
+    <div class="container">
+        <!-- Home Section -->
+        <div id="home" class="section active">
+<img src="https://www.classy.org/wp-content/uploads/2022/10/blog_54-creative-community-service-ideas-for-nonprofits-1224x612.jpg" 
+     alt="Community Service Banner" 
+     class="banner" 
+     style="width: 50%; height: auto;">            
+            <h1>Welcome to Community Service & Volunteerism</h1>
+            <p>Community service plays a crucial role in building a compassionate and connected society. It is a selfless act that allows individuals to contribute to their communities while developing valuable skills. Volunteering is not just about giving; it’s about growing and learning as well. By dedicating time and effort to helping others, individuals create a ripple effect that leads to stronger and more resilient communities.</p>
+            <p>According to the Corporation for National & Community Service, over 77 million Americans volunteered in some capacity last year. These individuals collectively contributed billions of hours of service, proving that volunteerism remains an essential part of civic engagement. From helping at food banks to mentoring youth, the impact of volunteers is immeasurable. Studies have also shown that communities with higher volunteer rates tend to have lower crime rates and stronger economic growth.</p>
+            <p>Beyond local impact, volunteering has global significance. International organizations such as the United Nations and the Red Cross rely on volunteers to deliver aid, provide education, and assist in disaster relief efforts worldwide. Volunteers bridge gaps where resources are limited and bring hope to those in need.</p>
+        </div>
+
+        <!-- Why Volunteer Section -->
+        <div id="why-volunteer" class="section">
+<img src="https://students.1fbusa.com/hubfs/25%20Ways%20to%20Volunteer%20in%20Your%20Community.jpg" 
+     alt="Ways to Volunteer" 
+     class="banner" 
+     style="width: 400px; height: auto;">          
+            <h1>Why Volunteer?</h1>
+            <ul>
+                <li><b>Enhance Personal and Professional Growth:</b> Volunteering helps individuals develop leadership, teamwork, and problem-solving skills. Many organizations offer training programs that help volunteers gain valuable work experience, which can be beneficial when applying for jobs or college admissions.</li>
+                <li><b>Improve Mental and Physical Well-being:</b> Studies show that acts of kindness and social engagement reduce stress, decrease depression, and improve overall happiness. Physical volunteering activities, such as park cleanups, also promote a healthier lifestyle by encouraging movement and outdoor activity.</li>
+                <li><b>Strengthen Social Connections:</b> Working together for a common cause builds relationships and a sense of belonging. It provides a platform for meeting like-minded individuals and forming strong community bonds. Many people form lifelong friendships through volunteer work.</li>
+                <li><b>Make a Tangible Impact:</b> Volunteering allows individuals to contribute directly to causes they care about, whether it’s education, environmental protection, or disaster relief. Seeing the direct results of their work provides a deep sense of fulfillment and motivation to continue helping.</li>
+            </ul>
+        </div>
+
+        <!-- How to Get Involved Section -->
+        <div id="how-to-get-involved" class="section">
+<img src="https://admissions.usf.edu/hs-fs/hubfs/blogs/Admit-A-Bull/images/blog-post/010919-does-volunteering-matter-for-college-admissions/does-volunteering-matter-for-college-admissions-inline.jpg?width=740&name=does-volunteering-matter-for-college-admissions-inline.jpg" 
+     alt="Volunteering for College Admissions" 
+     class="banner" 
+     style="width: 50%; height: auto;">            
+            <h1>How to Get Involved</h1>
+            <p>Finding volunteer opportunities is easier than ever. Here are some ways to start:</p>
+            <ul>
+                <li>Research local non-profits and charities that align with your interests.</li>
+                <li>Check websites like VolunteerMatch, AmeriCorps, and local community centers for opportunities.</li>
+                <li>Join school or workplace volunteer initiatives.</li>
+                <li>Participate in virtual volunteering, such as tutoring or remote mentoring.</li>
+                <li>Start your own community project, such as a neighborhood clean-up or food drive.</li>
+                <li>Engage in corporate volunteering programs that encourage employees to dedicate work hours to charitable causes.</li>
+                <li>Encourage young people to volunteer by incorporating service-learning opportunities in schools.</li>
+                <li>Travel abroad to participate in international volunteer programs focused on healthcare, education, or environmental conservation.</li>
+            </ul>
+        </div>
+    </div>
+<!-- Sources Section -->
+        <div id="sources" class="section">
+            <h1>Sources</h1>
+            <p>Below are the sources used to gather information for this website.</p>
+            <table>
+                <tr>
+                    <th>Author</th>
+                    <th>Article Title</th>
+                    <th>Website</th>
+                    <th>URL</th>
+                </tr>
+                <tr>
+                    <td>National Service</td>
+                    <td>The Importance of Volunteering</td>
+                    <td>AmeriCorps</td>
+                    <td><a href="https://www.nationalservice.gov" target="_blank">nationalservice.gov</a></td>
+                </tr>
+                <tr>
+                    <td>Volunteer Match</td>
+                    <td>Find Volunteering Opportunities</td>
+                    <td>VolunteerMatch</td>
+                    <td><a href="https://www.volunteermatch.org" target="_blank">volunteermatch.org</a></td>
+                </tr>
+                <tr>
+                    <td>Habitat for Humanity</td>
+                    <td>Our Mission</td>
+                    <td>Habitat for Humanity</td>
+                    <td><a href="https://www.habitat.org" target="_blank">habitat.org</a></td>
+                </tr>
+                <tr>
+                    <td>Feeding America</td>
+                    <td>Hunger in America</td>
+                    <td>Feeding America</td>
+                    <td><a href="https://www.feedingamerica.org" target="_blank">feedingamerica.org</a></td>
+                </tr>
+                <tr>
+                    <td>American Red Cross</td>
+                    <td>Disaster Relief Programs</td>
+                    <td>American Red Cross</td>
+                    <td><a href="https://www.redcross.org" target="_blank">redcross.org</a></td>
+                </tr>
+                <tr>
+                    <td>Big Brothers Big Sisters</td>
+                    <td>Mentorship and Youth Support</td>
+                    <td>Big Brothers Big Sisters</td>
+                    <td><a href="https://www.bbbs.org" target="_blank">bbbs.org</a></td>
+                </tr>
+            </table>
+        </div>
+    <footer>
+        &copy; 2025 Community Engagement Project | All Rights Reserved
+    </footer>
+</body>
+</html>
